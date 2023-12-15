@@ -206,7 +206,9 @@ def responses():
     
     return str(response.text)
 
-
+@app.route("/hello", methods=["GET"])
+def hello():
+    return "hellow"
 
 if __name__ == "__main__":
     app.run(debug=True)
