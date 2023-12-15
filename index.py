@@ -203,6 +203,9 @@ def responses():
     
     return str(response.text)
 
+@app.route('/hello', methods=['POST', 'GET'])
+def responses():
+    return "Hello World"
 
 
 if __name__ == "__main__":
