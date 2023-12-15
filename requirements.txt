@@ -1,0 +1,8 @@
+flask = "*"
+flask-sqlalchemy = "*"
+requests = "*"
+pandas = "*"
+gunicorn = "*"
+python-dotenv = "*"
+flask-cors = "*"
+matplotlib = "*"
