@@ -179,6 +179,7 @@ def city_retrieval():
 
 @app.route('/normalized', methods=['POST', 'GET'])
 def score_retrieval():
+    print("route working")
     
     # retrieve json user input data
     data = request.get_json(force=True)
