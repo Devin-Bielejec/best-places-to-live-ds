@@ -200,6 +200,7 @@ def score_retrieval():
 
 @app.route('/', methods=['POST', 'GET'])
 def responses():
+    print("inside main route")
     response = requests.get(
         'https://raw.githubusercontent.com/labs15-best-places/backend/master/data-seeding/1-cities/data.js')
     
