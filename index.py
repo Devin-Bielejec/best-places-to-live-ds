@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, render_template, send_file
 from flask_cors import CORS
 import os 
-os.environ['MPLCONFIGDIR'] = os.getcwd() + "/tmp/"
+os.environ['MPLCONFIGDIR'] = "/tmp/"
 import matplotlib.pyplot as plt
 import pandas as pd
 import requests
