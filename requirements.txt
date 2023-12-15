@@ -1,8 +1,8 @@
-flask = "*"
-flask-sqlalchemy = "*"
-requests = "*"
-pandas = "*"
-gunicorn = "*"
-python-dotenv = "*"
-flask-cors = "*"
-matplotlib = "*"
+flask==1.1.1
+flask-sqlalchemy==2.4.1
+requests==2.22.0
+pandas==0.25.3
+gunicorn==20.0.4
+python-dotenv==0.10.3
+flask-cors==3.0.8
+matplotlib==3.1.2
