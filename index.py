@@ -202,6 +202,10 @@ def responses():
     
     return str(response.text)
 
+@app.route("/hello", methods=["GET"])
+def hello():
+    return "Hello world"
+
 
 
 if __name__ == "__main__":
