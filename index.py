@@ -179,6 +179,7 @@ def city_retrieval():
 
 @app.route('/normalized', methods=['POST', 'GET'])
 def score_retrieval():
+    print("route working")
     
     # retrieve json user input data
     data = request.get_json(force=True)
@@ -201,10 +202,6 @@ def responses():
         'https://raw.githubusercontent.com/labs15-best-places/backend/master/data-seeding/1-cities/data.js')
     
     return str(response.text)
-
-@app.route("/hello", methods=["GET"])
-def hello():
-    return "Hello world"
 
 
 
