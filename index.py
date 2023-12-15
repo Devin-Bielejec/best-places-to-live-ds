@@ -204,7 +204,7 @@ def responses():
     return str(response.text)
 
 @app.route('/hello', methods=['POST', 'GET'])
-def responses():
+def hello():
     return "Hello World"
 
 
