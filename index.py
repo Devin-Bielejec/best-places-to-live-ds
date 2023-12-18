@@ -35,7 +35,7 @@ def rankify(df, factors, top=20, quant=.60):
     # truncate the dataframe column-wise to the ones in 'columns'
     df2 = df_copy[columns]
 
-    return df2.to_dict(orient='record')
+    return df2.to_dict(orient='records')
 
 def best_worst_city(df, factors):
     final_dict = []
