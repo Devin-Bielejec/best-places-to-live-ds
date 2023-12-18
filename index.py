@@ -109,7 +109,7 @@ def radar_plt(df, city, factors):
 def get_normalized_scores(df, id, factors):
     df1 = df.loc[df['_id'] == id]
     df2 = df1[factors]
-    return df2.to_dict(orient='record')
+    return df2.to_dict(orient='records')
 
 city_factors = {
     "input1": ['score_business_freedom', 'cost-fitness-club', 'weather-sunshine-amount',
